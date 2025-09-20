@@ -165,3 +165,13 @@ footer {
   justify-content: center;
   font-size: 14px;
 }
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
